@@ -6,6 +6,7 @@ use CowSay\Cow;
 
 $bessie = new Cow('Hello, Farm!');
 
-$bessie -> setTongue ( 'U' );
+$bessie -> setTongue ( 'U' )
+        ->setPoop('@@@');
 
 echo $bessie;
